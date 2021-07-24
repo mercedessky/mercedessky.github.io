@@ -1,3 +1,5 @@
+
+/* BODY */
 body {
     margin: 0;
     padding: 0;
@@ -7,58 +9,83 @@ body {
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* NAV COLOR */
 nav {
     background-color: whitesmoke;
-    
+ 
+
+/* TEXT CUSTONIZED */
 }
 h1 {
     margin: 0;
     padding-top: 1em;
     color:teal;
-    
-    
-    
+    text-align: center;
+    font-size: 3rem;  
 }
+
+h2 {
+    text-align: left;
+}
+
 h3 {
     margin: 0;
     padding-top: .5em;
     padding-bottom: 1em;
     color: teal;
+    font-size: 2rem;
 }
+
+p {
+    width: 95%;
+    text-align: left;
+}
+
+/* IMAGE OF ME */
 
 img {
-    padding-top: 2em;;
-    width: 50%;
+    padding-top: 2em;
+    padding-left: 1em;
+    width: 50vw;
+    float: right;
+    height: 60vh;
 }
 
+
+/* ARTICLES */
 article {
     padding: 5em;
 }
 
+/* LISTS */
 ul  {
 list-style-type:circle;
  text-align: left;
 
 }
 
-hr {
-    width: 90%;
+ol {
+    text-align: left;
 }
 
 
- h2 {
-     text-align: center;
- }
- p {
-     width: 95%;
- }
-
+/* HORIZONTAL LINES*/
+hr {
+    
+    width: 90%;
+    
+}
+ 
+/* FOOTER*/
  footer {
      margin: 0;
      padding: 0;
      background-color: whitesmoke;
  }
 
+
+/* PSUEDO-CLASSES*/
  a:link {
      color:rgb(236, 237, 245);
  }
@@ -71,3 +98,15 @@ hr {
  a:active {
      color: wheat;
  }
+
+
+/*SMALL SCREEN CHANGES*/
+ @media screen and (min-width: 400px) {
+    body {
+      margin: 0;
+    }
+    img {
+        width: 40%;
+        height: 40%
+    }
+  }
