@@ -20,12 +20,15 @@ ul  {
 }
 
 hr {
-    width: 75%;
+    width: 90%;
 }
 
 
  h2 {
      text-align: center;
+ }
+ p {
+     width: 95%;
  }
 
  a:link {
