@@ -1,13 +1,33 @@
 body {
+    margin: 0;
+    padding: 0;
     text-align: center;
     background-color:teal;
     color: rgb(236, 237, 245);
-    font-weight: 600;
+    font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav {
+    background-color: whitesmoke;
+    
+}
+h1 {
+    margin: 0;
+    padding-top: 1em;
+    color:teal;
+    
+    
+    
+}
+h3 {
+    margin: 0;
+    padding-top: .5em;
+    padding-bottom: 1em;
+    color: teal;
 }
 
 img {
-    height: 300px;
+    padding-top: 2em;;
     width: 50%;
 }
 
@@ -16,7 +36,9 @@ article {
 }
 
 ul  {
- list-style-type: none;
+list-style-type:circle;
+ text-align: left;
+
 }
 
 hr {
@@ -29,6 +51,12 @@ hr {
  }
  p {
      width: 95%;
+ }
+
+ footer {
+     margin: 0;
+     padding: 0;
+     background-color: whitesmoke;
  }
 
  a:link {
