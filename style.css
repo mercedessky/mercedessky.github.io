@@ -23,17 +23,13 @@ hr {
     width: 75%;
 }
 
-main {
-    text-align: left;
-    width: 60%;
-    padding-left: 20%;
-}
+
  h2 {
      text-align: center;
  }
 
  a:link {
-     color:seagreen;
+     color:rgb(236, 237, 245);
  }
  a:visited {
      color:rgb(236, 237, 245);
