@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color:teal;
+    background-color: rgba(32, 33, 36, 1);
     color: rgb(236, 237, 245);
     font-weight: 700;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -20,7 +20,7 @@ nav {
 h1 {
     margin: 0;
     padding-top: 1em;
-    color:teal;
+    color:rgba(32, 33, 36, 1);
     text-align: center;
     font-size: 3rem;  
 }
@@ -33,7 +33,7 @@ h3 {
     margin: 0;
     padding-top: .5em;
     padding-bottom: 1em;
-    color: teal;
+    color: rgba(32, 33, 36, 1);
     font-size: 2rem;
 }
 
@@ -46,7 +46,9 @@ p {
 
 img {
     padding-top: 2em;
+    padding-bottom: 2em;
     padding-left: 1em;
+    padding-right: 1em;
     width: 50vw;
     float: right;
     height: 60vh;
@@ -71,10 +73,8 @@ ol {
 
 
 /* HORIZONTAL LINES*/
-hr {
-    
+hr {  
     width: 90%;
-    
 }
  
 /* FOOTER*/
@@ -84,7 +84,10 @@ hr {
      background-color: whitesmoke;
  }
 
-
+a {
+    text-align: left;
+    
+}
 /* PSUEDO-CLASSES*/
  a:link {
      color:rgb(236, 237, 245);
@@ -101,12 +104,17 @@ hr {
 
 
 /*SMALL SCREEN CHANGES*/
- @media screen and (min-width: 400px) {
+ @media screen and (max-width: 400px) {
     body {
       margin: 0;
+      text-align: center;
+      float: none;
     }
     img {
         width: 40%;
-        height: 40%
+        height: 40%;
+        float: none;
+        
     }
+
   }
