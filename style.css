@@ -50,7 +50,6 @@ img {
     padding-left: 1em;
     padding-right: 1em;
     width: 50vw;
-    float: none;
     height: 60vh;
 }
 
@@ -104,17 +103,3 @@ a {
 
 
 /*SMALL SCREEN CHANGES*/
- @media screen and (min-width: 400px) {
-    body {
-      margin: 0;
-      text-align: center;
-      float: none;
-    }
-    img {
-        width: 40%;
-        height: 40%;
-        float: none;
-        
-    }
-
-  }
