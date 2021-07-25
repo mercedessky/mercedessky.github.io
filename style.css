@@ -25,6 +25,12 @@ h1 {
     font-size: 3rem;  
 }
 
+.title {
+    color:rgba(32, 33, 36, 1);
+    text-align: center;
+    padding-bottom: 1em;;
+}
+
 h2 {
     text-align: left;
 }
