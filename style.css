@@ -36,28 +36,20 @@ h2 {
     text-align: left;
 }
 
-h3 {
-    margin: 0;
-    padding-top: .5em;
-    padding-bottom: 1em;
-    color: rgba(32, 33, 36, 1);
-    font-size: 2rem;
-}
+ 
 
 p {
     width: 95%;
     text-align: left;
 }
-
+.footername {
+    text-align: center;
+}
 /* IMAGE OF ME */
 
 img {
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-left: 1em;
-    padding-right: 1em;
-    width: 75%;
-    height: 60vh;
+    margin: 2em 0;
+    width: 50%;
 }
 
 
@@ -81,13 +73,23 @@ ol {
 /* HORIZONTAL LINES*/
 hr {  
     width: 90%;
+    height: 1px;
+    border: none;
+    color: white;
+    background-color: white;;
 }
  
 /* FOOTER*/
  footer {
-     margin: 0;
-     padding: 0;
-     background-color: whitesmoke;
+    margin: 0;
+    padding-top: .5em;
+    padding-bottom: 1em;
+    color: rgba(32, 33, 36, 1);
+    font-size: 2rem;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: small;
+     
  }
 
 a {
