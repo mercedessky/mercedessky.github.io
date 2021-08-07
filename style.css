@@ -1,9 +1,14 @@
-
+* {
+    overflow-x: hidden;
+}
 /* BODY */
 body {
     margin: 0;
     padding: 0;
     text-align: center;
+    background-image: linear-gradient(to right, rgba(123, 239, 178, .52), rgba(46, 49, 49, .52)), url(texture.jpg);
+    /* background-image: url(texture.jpg); */
+
     background-color: rgba(32, 33, 36, 1);
     color: rgb(236, 237, 245);
     font-weight: 700;
@@ -98,6 +103,44 @@ a {
     text-align: left;
     
 }
+
+.from-left {
+    grid-column: 2 / 3;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .from-right {
+    grid-column: 3 / 4;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+  
+  .from-left,
+  .from-right {
+    transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
+    transition: opacity 250ms ease-in, transform 400ms ease-in,
+      -webkit-transform 400ms ease-in;
+    opacity: 0;
+  }
+  
+  .from-left.appear,
+  .from-right.appear {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+  }
+  
+  .fade-in.appear {
+    opacity: 1;
+  }
+
 /* PSUEDO-CLASSES*/
  a:link {
      color:rgb(236, 237, 245);
