@@ -11,7 +11,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-image: linear-gradient(to right, rgba(123, 239, 178, .52), rgba(46, 49, 49, .52)), url(texture.jpg);
+    background-image: linear-gradient(to right, #06251581, rgba(46, 49, 49, 1)), url(texture.jpg);
     /* background-image: url(texture.jpg); */
 
     background-color: rgba(32, 33, 36, 1);
@@ -23,31 +23,11 @@ body {
 /* NAV COLOR */
 nav {
     background-color: whitesmoke;
-text-align: center;
-    
-}
-nav ul {
-    background-color: gray;
-    opacity: .7;
-    margin: 0;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    text-align: center;
-    
-}
-nav ul li {
-    display: inline;
-    float: left;
-    padding-left: 3%;
-   text-align: center;
-}
-nav ul li a {
-    display: block;
-    text-decoration: none;
-    text-align: center;
+    /* text-align: center; */
     
 }
 
+ 
 
 
 
@@ -56,7 +36,7 @@ nav ul li a {
 h1 {
     margin: 0;
     padding-top: 1em;
-    color:grey;
+    color:white;
     text-align: center;
     font-size: 3rem;  
 }
@@ -78,7 +58,6 @@ p {
     text-align: center;
 }
 
-
 .footername {
     text-align: center;
 }
@@ -86,8 +65,9 @@ p {
 
 img {
     margin: 2em 0;
-    width: 50%;
-    border-radius: 25%;
+    width: 40%;
+    border-radius: 50%;
+    filter: grayscale(55%);
 }
 
 
@@ -136,6 +116,7 @@ hr {
 
 a {
     text-align: center;
+    color: white;
     
 }
 
@@ -177,8 +158,9 @@ a {
     opacity: 1;
   }
 
+
 /* PSUEDO-CLASSES*/
- a:link {
+ /* a:link {
      color:rgb(236, 237, 245);
  }
  a:visited {
@@ -189,7 +171,6 @@ a {
  }
  a:active {
      color: wheat;
- }
+ } */
 
 
-/*SMALL SCREEN CHANGES*/
