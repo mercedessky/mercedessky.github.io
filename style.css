@@ -38,12 +38,14 @@ nav {
 
 h1 {
     margin: 0;
-    padding-top: 1em;
+    padding-top: 3rem;
     color:white;
     text-align: center;
     font-size: 3rem;  
 }
-
+.sticky + h1 {
+    padding-top: 60px;
+}
 .title {
     color:grey;
     text-align: center;
