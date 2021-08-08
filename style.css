@@ -24,7 +24,8 @@ body {
 
 /* NAV COLOR */
 nav {
-    background-color: whitesmoke;
+    background-color: rgb(245,245,245);
+    opacity: .7;
     z-index: 1;
     /* text-align: center; */
     font-family: 'Raleway', sans-serif;
