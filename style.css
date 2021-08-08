@@ -28,7 +28,7 @@ nav {
     opacity: .7;
     z-index: 1;
     /* text-align: center; */
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-size: 1.9rem; 
     line-height: 90%; 
@@ -62,13 +62,15 @@ h1 {
 
 h2 {
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
  
 
 p {
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
 }
@@ -97,26 +99,66 @@ ul  {
 list-style-type:circle;
  text-align: center;
  padding-right: 1.8rem;
- font-family: 'Raleway', sans-serif;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 ol {
     text-align: center;
     padding-right: 1rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
 /* HORIZONTAL LINES*/
 hr {  
     width: 80%;
-    height: 1px;
+    height: 1.5px;
     border: none;
-    color: white;
-    background-color: white;  
+    color: palevioletred;
+    background-color: palevioletred;  
     margin-left: 10%;
 }
+/* skills  */
+.skills-title {
+    padding-bottom: 3rem;
+}
+
+.skills {
+    padding-bottom: 2rem;;
+}
+
+
+/* CARD FOR PROJECT */
+
+
+.padding-card {
+    padding-top: 6rem;
+}
+
+.xtra-pad {
+    padding-bottom: 6rem;
+}
+
+.card-body {
+    color:rgba(46, 49, 49, 1);
+}
+
+.card-img-top {
+    width: 286px;
+    height: 180px;
+}
+
+.btn {
+    background-color: rosybrown;
+    border: none;;
+}
+
+.btn:hover {
+    background-color:palevioletred;
+    border: none;
+}
+
  
 /* FOOTER*/
  footer {
@@ -128,6 +170,7 @@ hr {
     background-color: whitesmoke;
     text-align: center;
     font-size: small;
+    font-family: 'Raleway', sans-serif;
      
  }
 
@@ -135,7 +178,7 @@ a {
     text-align: center;
     margin-right: 1rem;
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
