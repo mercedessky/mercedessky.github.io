@@ -23,12 +23,15 @@ body {
 /* NAV COLOR */
 nav {
     background-color: whitesmoke;
+    z-index: 1;
     /* text-align: center; */
     
 }
 
  
-
+.header {
+    padding-top: 3rem;;
+}
 
 
 /* TEXT CUSTONIZED */
@@ -68,6 +71,7 @@ img {
     width: 40%;
     border-radius: 50%;
     filter: grayscale(55%);
+
 }
 
 
@@ -174,3 +178,8 @@ a {
  } */
 
 
+ .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
